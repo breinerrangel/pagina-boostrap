@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2017/12/05/19/34/porsche-carrera-gt-3000201_960_720.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#encabezado {
+  display: flex;
+  width: 100%;
+  background-color: #000;
+  color: white;
+}
+#encabezado h1 {
+  margin: auto;
+  color: red;
+}
+#encabezado p {
+  margin-right: 10px;
+  font-size: 18px;
+}
+ .box {
+  width: 800px;
+  height: 500px;
+  margin: auto; 
+}
+@media all and (max-width: 900px) {
+  .box {
+    width: 100%;
+    height: 100%;
+    margin: auto 5px;
+  }
+  #encabezado {
+    width: 100%;
+  }
+  #card-box{
+    display: flex;
+    flex-direction: column;
+  }
+  #boton {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  #index-3{
+    display: flex;
+    flex-direction: column;
+  }
+} 
+
+#box2 {
+  background-color: cadetblue;
+  color: #ffff;
+  border: 3px solid white; 
+  
+} 
+#acodeon{
+  background-color: cadetblue;
+}
+#quienes-somos{
+  color: red;
+}
+main{
+  background-color: rgba(0, 0, 0, 0.346);
+  animation: xd linear 3s infinite;
+}
+@keyframes  {
+  0%{background-color: rgba(0, 0, 0, 0.346);;}
+  50%{background-color: rgba(169, 169, 169, 0.534);}
+  75%{background-color: rgba(95, 158, 160, 0.418);}
+  100%{background-color: #00000077;}
+}
+
+ 
+
+
+
+#col {
+  padding: 5px;
+}
+
+
+
+#sub-conetenedor2 {
+  display: flex;
+} 
+
+#sub-contenedo img {
+  height: 100px;
+}
+.row {
+  text-align: center;
+}  
+
+.col-3 {
+  display: flex;
+  justify-content: center;
+} 
+#parrafo-somos {
+  font-size: 20px;
+}
+ #boton {
+  
+  width: 200px;
+  margin-top: 200px;
+  margin-bottom: 5px; 
+  background: rgb(251,156,63);
+  background: radial-gradient(circle, rgba(251,156,63,1) 32%, rgba(252,70,107,1) 93%);
+} 
+#box3 {
+  text-align: center;
+} 
+
+ 
+
+#card-box{
+  display: flex;
+  gap: 10px;
+  
+ 
+  
+}
+
+.card {
+  margin-top: 10px;
+}
+.color {
+  color: white;
+}
+h3 {
+  color: #ffff;
+}
+#boton1 {
+  margin: auto;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+} 
+
+ #boton2 {
+  margin: auto;
+  width: 300px;
+  margin-top: 5px;
+  margin-bottom: 15;
+}
+footer{
+  height: 100px;
+  
+  display: flex;
+  justify-content: center;
+}
+
+
+#index-3{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+ 
